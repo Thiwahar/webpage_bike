@@ -1,0 +1,315 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Bikes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+        }
+
+        header, section, footer {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #1c1c1c;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #ff6600;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #ff6600;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            margin: 0;
+        }
+
+        nav ul li {
+            margin: 0;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ff6600;
+            font-weight: bold;
+            padding: 10px 20px;
+            display: block;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+            color: #ffd700;
+        }
+
+        section h2 {
+            color: #ffd700;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            border: 2px solid #ff6600;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+            color: #fff;
+        }
+
+        th {
+            background-color: #ff6600;
+        }
+
+        blockquote {
+            font-style: italic;
+            color: #ccc;
+            margin: 20px 0;
+        }
+
+        ul, ol {
+            text-align: left;
+            margin-left: 30px;
+        }
+
+        ul li, ol li {
+            margin-bottom: 10px;
+        }
+
+        form {
+            text-align: left;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            color: #ffd700;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+            width: 48%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #ff6600;
+            color: white;
+            font-size: 16px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            background-color: #ff4500;
+        }
+
+        video, audio, iframe {
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        footer p, footer address {
+            color: #ccc;
+        }
+
+        footer hr {
+            margin: 20px 0;
+            border-color: #ff6600;
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul li {
+                margin-bottom: 10px;
+            }
+
+            input[type="submit"],
+            input[type="reset"] {
+                width: 100%;
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to the Bike Enthusiast's Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Bikes</a></li>
+                <li><a href="#types">Types of Bikes</a></li>
+                <li><a href="#brands">Popular Brands</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Bikes</h2>
+        <p>Bikes, also known as motorcycles, are two-wheeled motor vehicles that are popular for their speed, agility, and fuel efficiency. They come in various types and designs, catering to different riding needs.</p>
+        <blockquote cite="https://en.wikipedia.org/wiki/Motorcycle">
+            "A motorcycle, often called a motorbike, bike, or cycle, is a two- or three-wheeled motor vehicle."
+        </blockquote>
+        <p>Bikes are loved for their <strong>freedom</strong> and <em>adventure</em> on the road. Whether you're commuting in the city or cruising down the highway, a bike can take you anywhere.</p>
+    </section>
+
+    <section id="types">
+        <h2>Types of Bikes</h2>
+        <ul>
+            <li>Sports Bikes</li>
+            <li>Cruisers</li>
+            <li>Touring Bikes</li>
+            <li>Off-Road Bikes</li>
+        </ul>
+        <h3>Sports Bikes</h3>
+        <p>Sports bikes are designed for speed and agility, with powerful engines and lightweight frames.</p>
+        <figure>
+            <img src="C:\Users\dhivakar\Downloads\download.jpeg" alt="Sports Bike">
+            <figcaption>Figure 1: A sleek sports bike</figcaption>
+        </figure>
+
+        <h3>Cruisers</h3>
+        <p>Cruisers are known for their comfortable riding position and classic style, perfect for long rides.</p>
+        <ol>
+            <li>Harley-Davidson Softail</li>
+            <li>Indian Scout</li>
+            <li>Yamaha VMAX</li>
+        </ol>
+    </section>
+
+    <section id="brands">
+        <h2>Popular Bike Brands</h2>
+        <table>
+            <caption>Top Bike Manufacturers</caption>
+            <thead>
+                <tr>
+                    <th>Brand</th>
+                    <th>Country</th>
+                    <th>Popular Model</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Harley-Davidson</td>
+                    <td>USA</td>
+                    <td>Street Glide</td>
+                </tr>
+                <tr>
+                    <td>Honda</td>
+                    <td>Japan</td>
+                    <td>CBR1000RR</td>
+                </tr>
+                <tr>
+                    <td>Kawasaki</td>
+                    <td>Japan</td>
+                    <td>Ninja H2</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="multimedia">
+        <h2>Bikes in Action</h2>
+        <h3>Watch a Bike Stunt Video</h3>
+        <video width="500" height="450" controls>
+            <source src="C:\Users\dhivakar\Downloads\4905016-hd_1920_1080_30fps.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+
+        <h3>Listen to the Sound of a Sports Bike Engine</h3>
+        <audio controls>
+            <source src="C:\Users\dhivakar\Downloads\350cc-bike-firing-32391.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <h3>Check Out Our Interactive Bike Map</h3>
+        <iframe src="https://www.example.com" title="Interactive Bike Map" width="300" height="200"></iframe>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+            <label for="bike-type">Favorite Bike Type:</label>
+            <select id="bike-type" name="bike-type">
+                <option value="Sports">Sports</option>
+                <option value="Cruiser">Cruiser</option>
+                <option value="Touring">Touring</option>
+                <option value="Off-Road">Off-Road</option>
+            </select><br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </section>
+
+    <footer>
+        <hr>
+        <p>&copy; 2024 Bike Enthusiast's Hub</p>
+        <address>
+            1234 Bike Lane<br>
+            Rideville, Motortown<br>
+            <a href="mailto:info@bikeshub.com">info@bikeshub.com</a>
+        </address>
+    </footer>
+
+</body>
+</html>
